@@ -1,0 +1,7 @@
+mutation tasksUpdate ($id: ID!, $done: Boolean!, $label: String!) {
+	updateTask (id: $id, done: $done, label: $label) {
+		id
+		done
+		label
+	}
+}

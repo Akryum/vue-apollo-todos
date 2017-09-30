@@ -1,0 +1,7 @@
+mutation tasksCreate ($label: String!) {
+	createTask (done: false, label: $label) {
+		id
+		done
+		label
+	}
+}

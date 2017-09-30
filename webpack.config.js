@@ -30,6 +30,14 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+      {
+        test: /\.(gql|graphql)$/,
+        loader: 'graphql-tag/loader'
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader',
       }
     ]
   },
