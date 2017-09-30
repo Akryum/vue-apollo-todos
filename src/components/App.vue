@@ -2,13 +2,13 @@
 import TodoPage from './TodoPage.vue'
 
 export default {
-  name: 'app',
+	name: 'app',
 
-  render (h) {
-    return <div id="app">
-      <TodoPage />
-    </div>
-  },
+	render (h) {
+		return <div id="app">
+			<TodoPage />
+		</div>
+	},
 }
 </script>
 

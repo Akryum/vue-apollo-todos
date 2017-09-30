@@ -8,7 +8,7 @@ import apolloProvider from './apollo'
 import App from './components/App.vue'
 
 new Vue({
-  el: '#app',
-  apolloProvider,
-  ...App,
+	el: '#app',
+	apolloProvider,
+	...App,
 })
